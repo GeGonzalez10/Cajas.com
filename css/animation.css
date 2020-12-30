@@ -1,0 +1,105 @@
+/* Animacion del main_section */
+.fadeIn{
+  -webkit-animation-duration:4s;
+  animation-duration:4s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+  @keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+/* Animacion del navbar*/
+.fadeInDown{
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from{
+    opacity: 0;
+    webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+      }
+   to{
+     opacity: 1;
+     webkit-transform: translate3d(0,0,0);
+     transform: translate3d(0,0,0);
+   }
+}
+
+/* Animacion de las tarjetas products*/
+.fadeInUp{
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp{
+  from{
+    opacity: 0;
+    webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+      }
+   to{
+     opacity: 1;
+     webkit-transform: translate3d(0,0,0);
+     transform: translate3d(0,0,0);
+   }
+}
+
+/* Animacion producto.html*/
+.fadeLeft{
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-name: fadeLeft;
+  animation-name: fadeLeft;
+}
+
+@keyframes fadeLeft{
+  from{
+    opacity: 0;
+    webkit-transform: translate3d(-150px,0,0);
+    transform: translate3d(-150px,0,0);
+      }
+   to{
+     opacity: 1;
+     webkit-transform: translate3d(0,0,0);
+     transform: translate3d(0,0,0);
+   }
+}
+
+.fadeRight{
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-name: fadeRight;
+  animation-name: fadeRight;
+}
+
+@keyframes fadeRight{
+  from{
+    opacity: 0;
+    webkit-transform: translate3d(150px,0,0);
+    transform: translate3d(150px,0,0);
+      }
+   to{
+     opacity: 1;
+     webkit-transform: translate3d(0,0,0);
+     transform: translate3d(0,0,0);
+   }
+}

@@ -5,48 +5,127 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+      <link rel="stylesheet" href="css/animation.css">
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/b787ac0fae.js" crossorigin="anonymous"></script>
+    <!-- /fontawesome -->
     <title>Cajas.com</title>
   </head>
   <body>
 <!-- Aquí empieza el navbar -->
-    <nav>
+    <nav class="fadeInDown">
       <div class="cajas_image">
        <img src="images/logo.png" alt="Logo del startup">
       </div>
       <div class="nav_options">
         <ul>
-          <li> <button type="button" name="FAQS_button">FAQS</button> </li>
-          <li> <button type="button" name="PRODUCTOS_button">PRODUCTOS</button></li>
+          <li> <a href="index.html">Home</a> </li>
+          <li> <a href="producto.html">Productos</a> </li>
+          <li> <a href="#">FAQS</a> </li>
         </ul>
       </div>
     </nav>
     <!-- Aquí acaba el navbar -->
 
-    <div class="main_section">
+    <div class="main_section fadeIn">
       <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
  eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
     </div>
+<!-- sección 1 - tarjetas de compra -->
     <div class="products">
-      <div class="product">
+      <div class="product fadeInUp">
         <div class="content">
           <div class="img_content"><img src="images/gato.png" alt="gato"></div>
           <h1>Caja de Gatitos</h1>
           <p>Esta es una caja ideal para tu gatito
-Es espaciosa y comoda</p>
-          <button type="button" name="main_button" class="main_button">COMPRAR</button>
+Es espaciosa y comoda</p> <br>
+          <a class="main_button" href="venta.html">COMPRAR</a>
         </div>
       </div>
-      <div class="product">
+
+      <div class="product fadeInUp">
         <div class="content">
           <div class="img_content"><img src="images/perro.png" alt="perro"></div>
           <h1>Caja de Perritos</h1>
           <p>Esta es una caja ideal para tu perrito
-Es espaciosa y comoda</p>
-          <button type="button" name="main_button" class="main_button">COMPRAR</button>
+Es espaciosa y comoda</p> <br>
+            <a class="main_button" href="venta2.html">COMPRAR</a>
         </div>
       </div>
     </div>
+<!-- fin/sección 1 - tarjetas de compra -->
 
+<!-- sección 2 - especificaciones -->
+    <div class="tipo-cajas">
+      <div class="tipo">
+        <div class="content">
+          <div class="img_content"> <img src="images/perro 2.jpg" alt="perro"></div>
+          <h1>Las más confiables</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+          <br> Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. </h3>
+        </div>
+        </div>
+      <div class="tipo">
+        <div class="content">
+          <div class="img_content"> <img src="images/perro1.jpg" alt="perro"></div>
+          <h1>Las más suaves</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+          <br>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. </h3>
+        </div>
+        </div>
+      </div>
+<!-- fin/sección 2 - especificaciones -->
+<hr>
+<!-- sección 3 - menciones -->
+<div class="menciones">
+  <h1>MENCIONES</h1>
+</div>
+<div class="menciones-nombres">
+  <div class="mencion">
+    <div class="content">
+      <div class="img_content"><img src="images/persona1.png" alt="Mario"></div>
+      <h1>Mario</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin</p>
+    </div>
+  </div>
+  <div class="mencion">
+    <div class="content">
+      <div class="img_content"><img src="images/persona2.png" alt="Juan"></div>
+      <h1>Juan</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin</p>
+    </div>
+  </div>
+  <div class="mencion">
+    <div class="content">
+      <div class="img_content"><img src="images/persona3.png" alt="Amanda"></div>
+      <h1>Amanda</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin</p>
+    </div>
+  </div>
+  <div class="mencion">
+    <div class="content">
+      <div class="img_content"><img src="images/persona4.png" alt="Joe"></div>
+      <h1>Joe</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin</p>
+    </div>
+  </div>
+  </div>
+
+<!-- fin/sección 3 - menciones -->
+<!-- footer -->
+<footer>
+<div class="footer">
+   <div class="RRSS-contacto">
+     <i class="fab fa-facebook-square"></i><a href="http://www.facebook.com"><strong>Facebook</strong> </a>
+     <i class="fas fa-id-card derechaicon"></i></i><a href="#" class="derecha"><strong>Contacto</strong> </a> <br>
+     <i class="fab fa-instagram-square"></i><a href="http://www.instagram.com"><strong>Instagram</strong></a>
+     <i class="fas fa-exclamation derechaicon"></i></i><a href="#" class="derecha"><strong>Términos y condiciones</strong></a>
+   </div>
+</div>
+</footer>
+<!-- fin/footer -->
 
   <scrip src="scripts/scrip.js" type="text/javascript"></scrip>
   </body>

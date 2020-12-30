@@ -1,0 +1,19 @@
+@media (max-width:750px) {
+  .main_section{
+    padding: 4%;
+  }
+  .products{
+    display: inherit;
+    height: auto;
+      background-size:cover;
+  }
+  .product{
+    margin: auto;
+  }
+  .tipo-cajas{
+    display: inherit;
+    padding-top: 700px;
+  }
+  .menciones-nombres{
+    display: inherit;
+  }
