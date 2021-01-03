@@ -15,8 +15,8 @@ Contiene secciones de:
   - Animaciones con CSS
   - Maquetación en Axure
 
-  [Mainpage](images/Screenshot_Cajas com.png)
+  ![Mainpage](images/Screenshot_Cajas.png)
 
-  [Venta](images/Screenshot_Exito.png)
+  ![Venta](images/Screenshot_Exito.png)
 
-  [Confirmacion de compra](images/Screenshot_Exito.png)
+  ![Confirmacion de compra](images/Screenshot_Exito.png)
