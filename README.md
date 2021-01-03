@@ -17,6 +17,6 @@ Contiene secciones de:
 
   ![Mainpage](images/Screenshot_Cajas.png)
 
-  ![Venta](images/Screenshot_Exito.png)
+  ![Venta](images/Screenshot_Venta.png)
 
-  ![Confirmacion de compra](images/Screenshot_Exito.png)
+  ![Confirmacion de compra](image/Screenshot_Exito.png)
