@@ -8,9 +8,15 @@ Contiene secciones de:
   - Mainpage
   - Footer con redes sociales
   - Confirmación de la venta
-    
+
 ### Las tecnologías utilizadas son:
   - HTML
   - CSS
   - Animaciones con CSS
   - Maquetación en Axure
+
+  [Mainpage](images/Screenshot_Cajas com.png)
+
+  [Venta](images/Screenshot_Exito.png)
+
+  [Confirmacion de compra](images/Screenshot_Exito.png)
